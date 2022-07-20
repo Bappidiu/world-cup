@@ -4,6 +4,14 @@ body {
   font-family: "Ibarra Real Nova", serif;
   font-family: "Poppins", sans-serif;
 }
+@keyframes colour {
+  from {
+    background-color: rgb(32, 30, 30);
+  }
+  to {
+    background-color: dark blue;
+  }
+}
 .top-banner {
   background-color: rgb(32, 30, 30);
   width: 1100px;
@@ -16,8 +24,13 @@ body {
   background-position: center;
   margin-left: 8%;
   margin-top: 4%;
+  animation: colour 1s 0.5s infinite direction fill-mode;
+  animation-play-state: running;
 }
 
+.ronaldinho {
+  transition: width 5s;
+}
 .ronaldinho:hover {
   width: 1000px;
 }
