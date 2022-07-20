@@ -49,11 +49,11 @@ p {
 }
 .content {
   background-color: black;
-  width: 500px;
+  width: 200px;
   height: 250px;
   text-align: center;
   border-radius: 10px;
-  margin-left: 8%;
+  margin-left: 80px;
 }
 .match {
   width: 150px;
@@ -95,7 +95,7 @@ p {
   margin-right: 30px;
 }
 .players {
-  width: 65%;
+  width: 700px;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
@@ -104,6 +104,7 @@ p {
   padding-left: 100px;
   margin-right: 50px;
   padding-right: 50px;
+  margin-left: 0px;
 }
 .goal {
   background-color: rgb(36, 34, 34);
